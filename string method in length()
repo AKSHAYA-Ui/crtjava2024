@@ -1,0 +1,8 @@
+import java.util.*;
+class lengthFunction{
+    public static void main(String[] agrs)
+    {
+        String s1="java";
+        System.out.println(s1.length());
+    }
+}
