@@ -1,0 +1,6 @@
+class string{
+    public static void main(String[] args) {
+        String str="Akshaya";
+        System.out.println(str);
+    }
+}
