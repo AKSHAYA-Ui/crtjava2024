@@ -1,0 +1,12 @@
+import java.util.*;
+class lastIndexOf{
+    public static void main(String[] agrs)
+    {
+      String str=new String("Akshaya Software Solution");
+      System.out.println(str);
+      System.out.println(str.replace('S','s'));
+      System.out.println(str.charAt(7));
+      System.out.println(str.indexOf("i"));
+      System.out.println(str.lastIndexOf("i"));
+        }
+    }
