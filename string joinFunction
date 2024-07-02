@@ -7,7 +7,7 @@ class stringjoin{
      System.out.println(str1);
      String str2=String.join(" is ",str);
      System.out.println(str2);
-     String str3=String.join(" ",str);
+     String str3=String.join("",str);
      System.out.println(str3);
     }
 }
