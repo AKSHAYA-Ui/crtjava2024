@@ -23,6 +23,7 @@ class Test{
                 }
             }
         }
-       
+           if(n==n)
+          System.out.println("No");  
     }
 }
