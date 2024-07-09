@@ -9,7 +9,7 @@ class Child extends Parent
     {
         System.out.println(a+b);
         System.out.println(this.a+this.b);
-        System.out.println("Super.a+super.b");
+        System.out.println(Super.a+super.b);
     }
 }
 class Test
