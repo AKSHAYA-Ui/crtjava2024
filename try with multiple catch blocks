@@ -1,0 +1,29 @@
+import java.util.*;
+class Test
+{
+    public static void main(String[] args)
+    {
+        Scanner s=new Scanner(System.in);
+        try
+        {
+            System.out.println("Java");
+            int n=s.nextInt();
+            System.out.println(10/n);
+            int a[]={34,54,12};
+            System.out.println(a[1]);
+        }
+        catch(ArithmeticException e)
+    {
+        System.out.println(e);
+    }
+    catch(ArrayIndexOutOfBoundsException e)
+    {
+        System.out.println(e);
+    }
+    catch(Exception e)
+    {
+        System.out.println(e);
+    }
+        System.out.println("End of program");
+    }
+}
