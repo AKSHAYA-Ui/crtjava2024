@@ -1,0 +1,34 @@
+import java.util.*;
+ class arrayList1
+{
+	public static void main(String[] args) 
+	{
+	    Scanner s=new Scanner(System.in);
+	    int n=s.nextInt();
+	    int arr[]=new int[n];
+	    for(int i=0;i<n;i++)
+	    {
+	        arr[i]=s.nextInt();
+	    }
+	        ArrayList<Integer> arr1=new ArrayList<Integer>();
+	        ArrayList<Integer> arr2=new ArrayList<Integer>();
+	        for(int i=0;i<arr.length;i++)
+	        {
+	            arr1.add(arr[i]);
+	        }
+	        for(Integer x:arr1)
+	        {
+	            if(!arr2.contains(x))
+	            {
+	                arr2.add(x);
+	            }
+	            }
+	           Integer[] arr4=new Integer[arr2.size()];
+	           arr4=arr2.toArray(arr4);
+	        for(int i=0;i<arr4.length;i++)
+	        {
+	    
+		System.out.print(arr4[i]+" ");
+	        }
+	      }
+        }
